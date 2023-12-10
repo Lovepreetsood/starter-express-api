@@ -2,9 +2,9 @@ const express = require('express')
 const app = express()
 app.all('/', (req, res) => {
     console.log("Just got a request!")
-    res.send('Yo!')
+    res.send('Yoddd!')
     })
-app.get("/",(req,res)=>{
+app.get("/da",(req,res)=>{
     res.json({
         hey:'hello',
         f:'ff'
